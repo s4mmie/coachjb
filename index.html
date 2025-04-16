@@ -1,7 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coach JB</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Coach JB - Overwatch 2 &amp; Marvel Rivals Coaching</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
 </head>
+<body>
+
+  <nav>
+    <div class="logo">The Coach JB</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#booking">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <h1>Take Your Game to the Next Level</h1>
+    <p>Professional coaching for Overwatch 2 and Marvel Rivals.</p>
+    <button id="bookNowBtn" class="btn">Book a Session</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Coach JB, a competitive gamer with 10+ years of experience in professional play and coaching. I provide personalized training to help players improve their skills and reach their goals.</p>
+  </section>
+
+  <section id="games">
+    <h2>Games I Coach</h2>
+    <div class="games-container">
+      <div class="game">
+        <h3>Overwatch 2</h3>
+        <p>Master team-based combat in Overwatch 2 with my focused sessions. Improve your aim, game sense, and team coordination to climb the ranks.</p>
+      </div>
+      <div class="game">
+        <h3>Marvel Rivals</h3>
+        <p>Dominate the arena in Marvel Rivals. Learn hero abilities, map strategies, and team compositions to gain a competitive edge.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <p class="testimonial">"Coach JB helped me reach Diamond rank in just a month!" – <strong>Alice</strong></p>
+    <p class="testimonial">"Great insights and fun coaching sessions. Highly recommend!" – <strong>Bob</strong></p>
+  </section>
+
+  <section id="booking">
+    <h2>Book a Session</h2>
+    <form id="bookingForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="game" required>
+        <option value="">Select Game</option>
+        <option value="overwatch2">Overwatch 2</option>
+        <option value="marvelrivals">Marvel Rivals</option>
+      </select>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Coach JB. All rights reserved.</p>
+    <p>Follow me: 
+      <a href="#" target="_blank">Twitter</a> | 
+      <a href="#" target="_blank">Twitch</a> | 
+      <a href="#" target="_blank">YouTube</a>
+    </p>
+  </footer>
+</body>
+</html>
