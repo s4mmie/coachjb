@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Coach JB - Overwatch 2 & Marvel Rivals Coaching</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">The Coach JB</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Jordan</a></li>
+      <li><a href="booking.html">Book a Session</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+    </ul>
+  </nav>
+
+  <section id="booking">
+    <h2>Book a Coaching Session</h2>
+
+    <div id="pricing" style="text-align: center; font-size: 1.3rem; margin-bottom: 30px;">
+      <strong>Pricing:</strong> $15 per Game (Overwatch 2 or Marvel Rivals)
+    </div>
+
+    <div style="text-align: center; margin-bottom: 30px;">
+      <p>Payment Methods Accepted:</p>
+      <ul style="list-style: none; padding: 0; line-height: 1.8;">
+        <li>💰 <strong>PayPal</strong></li>
+        <li>💸 <strong>Cash App</strong></li>
+        <li>📲 <strong>Venmo</strong></li>
+      </ul>
+    </div>
+
+    <form id="bookingForm" style="max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 15px;">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="text" name="ign" placeholder="In-Game Name (IGN)" required />
+      <input type="text" name="discord" placeholder="Your Discord Tag (e.g. CoachJB#1234)" required />
+      <input type="text" name="replay" placeholder="Replay Code (if available)" />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="game" required>
+        <option value="">Select Game</option>
+        <option value="Overwatch 2">Overwatch 2</option>
+        <option value="Marvel Rivals">Marvel Rivals</option>
+      </select>
+      <textarea name="message" placeholder="Any notes, goals, or availability..." required></textarea>
+      <button type="submit" class="btn">Submit Booking (Manual Payment)</button>
+    </form>
+
+    <div style="text-align: center; margin-top: 30px; font-size: 0.9rem; color: #aaa;">
+      * After submitting, Coach JB will contact you directly via Discord or Email to confirm the session and send payment instructions.
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Socials</h2>
+    <p>For direct inquiries or custom coaching plans, reach out via email or social media platforms below:</p>
+    <ul>
+      <li>Email: <a href="mailto:jbdevs@gmail.com">jbdevs@gmail.com</a></li>
+      <li>Discord: JBDevs</li>
+      <li>Follow me on:
+        <a href="https://www.twitch.tv/thecoachjb">Twitch </a> 
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Coach JB. All rights reserved.</p>
+  </footer>
+
+
+
+</body>
+</html>
